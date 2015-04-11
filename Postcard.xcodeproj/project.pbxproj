@@ -13,6 +13,8 @@
 		52B18A8A1AD8F833001D88F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B18A891AD8F833001D88F8 /* Images.xcassets */; };
 		52B18A8D1AD8F833001D88F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B18A8B1AD8F833001D88F8 /* LaunchScreen.xib */; };
 		52B18A991AD8F833001D88F8 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B18A981AD8F833001D88F8 /* PostcardTests.swift */; };
+		52B18AA31AD8FE63001D88F8 /* SagradaFamilia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52B18AA21AD8FE63001D88F8 /* SagradaFamilia.jpg */; };
+		52B18AA51AD900E3001D88F8 /* albereinstanstamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52B18AA41AD900E3001D88F8 /* albereinstanstamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		52B18A921AD8F833001D88F8 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B18A971AD8F833001D88F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B18A981AD8F833001D88F8 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		52B18AA21AD8FE63001D88F8 /* SagradaFamilia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpg; sourceTree = "<group>"; };
+		52B18AA41AD900E3001D88F8 /* albereinstanstamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albereinstanstamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		52B18A801AD8F833001D88F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52B18AA41AD900E3001D88F8 /* albereinstanstamp.jpg */,
+				52B18AA21AD8FE63001D88F8 /* SagradaFamilia.jpg */,
 				52B18A811AD8F833001D88F8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B18AA31AD8FE63001D88F8 /* SagradaFamilia.jpg in Resources */,
 				52B18A881AD8F833001D88F8 /* Main.storyboard in Resources */,
 				52B18A8D1AD8F833001D88F8 /* LaunchScreen.xib in Resources */,
+				52B18AA51AD900E3001D88F8 /* albereinstanstamp.jpg in Resources */,
 				52B18A8A1AD8F833001D88F8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Postcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Postcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
